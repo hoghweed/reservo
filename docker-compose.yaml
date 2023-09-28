@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  reservo-event-catalog:
+    build:
+      context: ./apps/catalog
+      dockerfile: ./Dockerfile
+    ports:
+      - 3011:3000
+    container_name: reservo-event-catalog
+    volumes:
+      - ./docs/domains/:/home/node/domains/
+      - ./docs/events/:/home/node/events/
+      - ./apps/catalog/public/:/home/node/public/
+      - ./docs/services/:/home/node/services/
+      - ./apps/catalog/eventcatalog.config.js:/home/node/eventcatalog.config.js
+
+  # start_dependencies:
+  #   image: dadarek/wait-for-dependencies
+  #   depends_on:
+  #     - database
+  #   command: database:5432
