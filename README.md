@@ -4,10 +4,10 @@ Welcome to **Reservo** the Booking & Reservation System sample/reference project
 
 ![Booking & Reservation System](./docs/support/reservo.jpg)
 
-## Table of Contents
+
+##<! -- omit in toc -->Table of Contents
 
 - [Reservo](#reservo)
-  - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Project Structure](#project-structure)
   - [Getting Started](#getting-started)
