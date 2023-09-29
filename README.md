@@ -12,6 +12,7 @@ Welcome to **Reservo** the Booking & Reservation System sample/reference project
   - [Project Structure](#project-structure)
   - [Getting Started](#getting-started)
   - [Features](#features)
+  - [Scripts](#scripts)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -65,6 +66,17 @@ To run this project on your local machine, follow these steps:
 - **Event Sourcing**: Explore event sourcing as a data storage mechanism to maintain a history of changes.
 
 - **Monorepo Structure**: Discover how to organize a monorepo for a multi-component project like this.
+
+## Scripts
+
+The root of this monorepo contains a set of npm scripts to help you manage and work with the individual components. Below is a list of these scripts along with their descriptions:
+
+| Script             | Description                            |
+| ------------------ | -------------------------------------- |
+| `pnpm run:catalog` | Run the repo EventCatalog application. |
+
+Each of these scripts can be executed from the root directory of the monorepo and will apply the specified action to all relevant components. Refer to the individual component README files for more component-specific scripts and instructions.
+
 
 ## Contributing
 

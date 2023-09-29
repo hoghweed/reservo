@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'EventCatalog',
-  tagline: 'Discover, Explore and Document your Event Driven Architectures',
-  organizationName: 'Your Company',
-  projectName: 'Event Catalog',
+  title: 'Reservo',
+  tagline: 'Discover and Explore the Booking & Reservation System sample/reference project',
+  organizationName: 'Ducktors',
+  projectName: 'Reservo',
   editUrl: 'https://github.com/boyney123/eventcatalog-demo/edit/master',
   trailingSlash: true,
   primaryCTA: {
@@ -11,31 +11,38 @@ module.exports = {
   },
   secondaryCTA: {
     label: 'Getting Started',
-    href:"https://www.eventcatalog.dev/"
+    href:"https://github.com/hoghweed/reservo"
   },
   logo: {
     alt: 'EventCatalog Logo',
     // found in the public dir
     src: 'logo.svg',
   },
+  headerLinks: [
+    { label: 'Commands', href: '/commands' },
+    { label: 'Events', href: '/events' },
+    { label: 'Services', href: '/services' },
+    { label: 'Visualiser', href: '/visualiser' },
+    { label: '3D Node Graph', href: '/overview' },
+  ],
   footerLinks: [
     { label: 'Events', href: '/events' },
     { label: 'Services', href: '/services' },
     { label: 'Visualiser', href: '/visualiser' },
     { label: '3D Node Graph', href: '/overview' },
-    { label: 'GitHub', href: 'https://github.com/boyney123/eventcatalog-demo/edit/master' }
+    { label: 'GitHub', href: 'https://github.com/hoghweed/reservo/edit/main' }
   ],
   users: [
     {
-      id: 'dboyne',
-      name: 'David Boyne',
-      avatarUrl: 'https://pbs.twimg.com/profile_images/1262283153563140096/DYRDqKg6_400x400.png',
+      id: 'alemagio',
+      name: 'Alessandro Magionami',
+      avatarUrl: 'https://avatars.githubusercontent.com/u/21338507?v=4',
       role: 'Developer',
     },
     {
-      id: 'mSmith',
-      name: 'Matthew Smith',
-      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      id: 'hoghweed',
+      name: 'Manuel S. Martone',
+      avatarUrl: 'https://avatars.githubusercontent.com/u/127878?s=400&u=9da84f75ab9deba7daa2b3ad8102b2d7483d3955&v=4',
       role: 'Developer',
     },
   ],

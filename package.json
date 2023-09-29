@@ -11,7 +11,7 @@
     "release": "pnpm build && changeset publish",
     "test": "turbo run test",
     "test:ci": "turbo run test:ci",
-    "run:catalog": "docker-compose up --build --remove-orphans -d reservo-event-catalog"
+    "run:catalog": "docker-compose up --build --remove-orphans -d reservo-event-catalog && open http://localhost:3011"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",

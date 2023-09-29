@@ -11,6 +11,7 @@ services:
     volumes:
       - ./docs/domains/:/home/node/domains/
       - ./docs/events/:/home/node/events/
+      - ./docs/commands/:/home/node/commands/
       - ./apps/catalog/public/:/home/node/public/
       - ./docs/services/:/home/node/services/
       - ./apps/catalog/eventcatalog.config.js:/home/node/eventcatalog.config.js
