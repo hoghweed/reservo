@@ -5,7 +5,7 @@ Welcome to **Reservo** the Booking & Reservation System sample/reference project
 ![Booking & Reservation System](./docs/support/reservo.jpg)
 
 
-##<! -- omit in toc -->Table of Contents
+## Table of Contents <!-- omit in toc -->
 
 - [Reservo](#reservo)
   - [Introduction](#introduction)
